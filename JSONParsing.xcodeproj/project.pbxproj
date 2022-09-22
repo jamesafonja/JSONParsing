@@ -8,21 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		984B9C4728D8CCFB00BFDA00 /* JSONParsingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C4628D8CCFB00BFDA00 /* JSONParsingApp.swift */; };
-		984B9C4928D8CCFB00BFDA00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C4828D8CCFB00BFDA00 /* ContentView.swift */; };
 		984B9C4B28D8CCFF00BFDA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984B9C4A28D8CCFF00BFDA00 /* Assets.xcassets */; };
 		984B9C4E28D8CCFF00BFDA00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984B9C4D28D8CCFF00BFDA00 /* Preview Assets.xcassets */; };
+		984B9C5828D8CD8200BFDA00 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C5728D8CD8200BFDA00 /* Todo.swift */; };
+		984B9C5B28D8CE1C00BFDA00 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C5A28D8CE1C00BFDA00 /* APIHandler.swift */; };
+		984B9C5D28D8D1D000BFDA00 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C5C28D8D1D000BFDA00 /* TodoListView.swift */; };
+		984B9C5F28D8D1E300BFDA00 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C5E28D8D1E300BFDA00 /* TodoListViewModel.swift */; };
+		984B9C6128D8DE1900BFDA00 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C6028D8DE1900BFDA00 /* MainView.swift */; };
+		984B9C6C28D8DFDB00BFDA00 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C6B28D8DFDB00BFDA00 /* Photo.swift */; };
+		984B9C6E28D8E04D00BFDA00 /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C6D28D8E04D00BFDA00 /* PhotoListView.swift */; };
+		984B9C7028D8E05F00BFDA00 /* PhotoListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C6F28D8E05F00BFDA00 /* PhotoListRowView.swift */; };
+		984B9C7328D8E6F100BFDA00 /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984B9C7228D8E6F100BFDA00 /* PhotoListViewModel.swift */; };
+		98E6DC3F28DA0DF5004F418D /* TodoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6DC3E28DA0DF5004F418D /* TodoListViewModelTests.swift */; };
+		98E6DC4628DA1997004F418D /* PhotoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6DC4528DA1997004F418D /* PhotoListViewModelTests.swift */; };
+		98E6DC4828DA19F2004F418D /* APIHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6DC4728DA19F2004F418D /* APIHandlerTests.swift */; };
+		98E6DC4D28DA3290004F418D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6DC4C28DA3290004F418D /* ViewModel.swift */; };
+		98E6DC5128DA4BF4004F418D /* TodoListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E6DC5028DA4BF4004F418D /* TodoListRowView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98E6DC4028DA0DF5004F418D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 984B9C3B28D8CCFB00BFDA00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 984B9C4228D8CCFB00BFDA00;
+			remoteInfo = JSONParsing;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		984B9C4328D8CCFB00BFDA00 /* JSONParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		984B9C4628D8CCFB00BFDA00 /* JSONParsingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingApp.swift; sourceTree = "<group>"; };
-		984B9C4828D8CCFB00BFDA00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		984B9C4A28D8CCFF00BFDA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		984B9C4D28D8CCFF00BFDA00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		984B9C5728D8CD8200BFDA00 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		984B9C5A28D8CE1C00BFDA00 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		984B9C5C28D8D1D000BFDA00 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		984B9C5E28D8D1E300BFDA00 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		984B9C6028D8DE1900BFDA00 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		984B9C6B28D8DFDB00BFDA00 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		984B9C6D28D8E04D00BFDA00 /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
+		984B9C6F28D8E05F00BFDA00 /* PhotoListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListRowView.swift; sourceTree = "<group>"; };
+		984B9C7228D8E6F100BFDA00 /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		98E6DC3C28DA0DF5004F418D /* JSONParsingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONParsingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E6DC3E28DA0DF5004F418D /* TodoListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModelTests.swift; sourceTree = "<group>"; };
+		98E6DC4528DA1997004F418D /* PhotoListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModelTests.swift; sourceTree = "<group>"; };
+		98E6DC4728DA19F2004F418D /* APIHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandlerTests.swift; sourceTree = "<group>"; };
+		98E6DC4C28DA3290004F418D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		98E6DC5028DA4BF4004F418D /* TodoListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		984B9C4028D8CCFB00BFDA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E6DC3928DA0DF5004F418D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				984B9C4528D8CCFB00BFDA00 /* JSONParsing */,
+				98E6DC3D28DA0DF5004F418D /* JSONParsingTests */,
 				984B9C4428D8CCFB00BFDA00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				984B9C4328D8CCFB00BFDA00 /* JSONParsing.app */,
+				98E6DC3C28DA0DF5004F418D /* JSONParsingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				984B9C4628D8CCFB00BFDA00 /* JSONParsingApp.swift */,
-				984B9C4828D8CCFB00BFDA00 /* ContentView.swift */,
+				98E6DC4928DA324E004F418D /* Models */,
+				98E6DC4A28DA3255004F418D /* Views */,
+				98E6DC4B28DA325D004F418D /* View Models */,
+				984B9C5928D8CDB900BFDA00 /* Services */,
 				984B9C4A28D8CCFF00BFDA00 /* Assets.xcassets */,
 				984B9C4C28D8CCFF00BFDA00 /* Preview Content */,
 			);
@@ -65,6 +114,71 @@
 				984B9C4D28D8CCFF00BFDA00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		984B9C5928D8CDB900BFDA00 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				984B9C5A28D8CE1C00BFDA00 /* APIHandler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		98E6DC3D28DA0DF5004F418D /* JSONParsingTests */ = {
+			isa = PBXGroup;
+			children = (
+				98E6DC3E28DA0DF5004F418D /* TodoListViewModelTests.swift */,
+				98E6DC4528DA1997004F418D /* PhotoListViewModelTests.swift */,
+				98E6DC4728DA19F2004F418D /* APIHandlerTests.swift */,
+			);
+			path = JSONParsingTests;
+			sourceTree = "<group>";
+		};
+		98E6DC4928DA324E004F418D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				984B9C5728D8CD8200BFDA00 /* Todo.swift */,
+				984B9C6B28D8DFDB00BFDA00 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98E6DC4A28DA3255004F418D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98E6DC4F28DA4BDA004F418D /* TodoList */,
+				984B9C6028D8DE1900BFDA00 /* MainView.swift */,
+				98E6DC4E28DA44A5004F418D /* PhotoList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98E6DC4B28DA325D004F418D /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				98E6DC4C28DA3290004F418D /* ViewModel.swift */,
+				984B9C5E28D8D1E300BFDA00 /* TodoListViewModel.swift */,
+				984B9C7228D8E6F100BFDA00 /* PhotoListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		98E6DC4E28DA44A5004F418D /* PhotoList */ = {
+			isa = PBXGroup;
+			children = (
+				984B9C6D28D8E04D00BFDA00 /* PhotoListView.swift */,
+				984B9C6F28D8E05F00BFDA00 /* PhotoListRowView.swift */,
+			);
+			path = PhotoList;
+			sourceTree = "<group>";
+		};
+		98E6DC4F28DA4BDA004F418D /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				984B9C5C28D8D1D000BFDA00 /* TodoListView.swift */,
+				98E6DC5028DA4BF4004F418D /* TodoListRowView.swift */,
+			);
+			path = TodoList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +201,24 @@
 			productReference = 984B9C4328D8CCFB00BFDA00 /* JSONParsing.app */;
 			productType = "com.apple.product-type.application";
 		};
+		98E6DC3B28DA0DF5004F418D /* JSONParsingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E6DC4228DA0DF5004F418D /* Build configuration list for PBXNativeTarget "JSONParsingTests" */;
+			buildPhases = (
+				98E6DC3828DA0DF5004F418D /* Sources */,
+				98E6DC3928DA0DF5004F418D /* Frameworks */,
+				98E6DC3A28DA0DF5004F418D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98E6DC4128DA0DF5004F418D /* PBXTargetDependency */,
+			);
+			name = JSONParsingTests;
+			productName = JSONParsingTests;
+			productReference = 98E6DC3C28DA0DF5004F418D /* JSONParsingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +231,10 @@
 				TargetAttributes = {
 					984B9C4228D8CCFB00BFDA00 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					98E6DC3B28DA0DF5004F418D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 984B9C4228D8CCFB00BFDA00;
 					};
 				};
 			};
@@ -116,6 +252,7 @@
 			projectRoot = "";
 			targets = (
 				984B9C4228D8CCFB00BFDA00 /* JSONParsing */,
+				98E6DC3B28DA0DF5004F418D /* JSONParsingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +267,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		98E6DC3A28DA0DF5004F418D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +281,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				984B9C4928D8CCFB00BFDA00 /* ContentView.swift in Sources */,
+				984B9C7028D8E05F00BFDA00 /* PhotoListRowView.swift in Sources */,
+				98E6DC5128DA4BF4004F418D /* TodoListRowView.swift in Sources */,
+				984B9C6C28D8DFDB00BFDA00 /* Photo.swift in Sources */,
+				984B9C5828D8CD8200BFDA00 /* Todo.swift in Sources */,
+				98E6DC4D28DA3290004F418D /* ViewModel.swift in Sources */,
+				984B9C7328D8E6F100BFDA00 /* PhotoListViewModel.swift in Sources */,
+				984B9C6128D8DE1900BFDA00 /* MainView.swift in Sources */,
+				984B9C5D28D8D1D000BFDA00 /* TodoListView.swift in Sources */,
 				984B9C4728D8CCFB00BFDA00 /* JSONParsingApp.swift in Sources */,
+				984B9C5F28D8D1E300BFDA00 /* TodoListViewModel.swift in Sources */,
+				984B9C5B28D8CE1C00BFDA00 /* APIHandler.swift in Sources */,
+				984B9C6E28D8E04D00BFDA00 /* PhotoListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E6DC3828DA0DF5004F418D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E6DC3F28DA0DF5004F418D /* TodoListViewModelTests.swift in Sources */,
+				98E6DC4828DA19F2004F418D /* APIHandlerTests.swift in Sources */,
+				98E6DC4628DA1997004F418D /* PhotoListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98E6DC4128DA0DF5004F418D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 984B9C4228D8CCFB00BFDA00 /* JSONParsing */;
+			targetProxy = 98E6DC4028DA0DF5004F418D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		984B9C4F28D8CCFF00BFDA00 /* Debug */ = {
@@ -317,6 +489,40 @@
 			};
 			name = Release;
 		};
+		98E6DC4328DA0DF5004F418D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.revive.JSONParsingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONParsing.app/JSONParsing";
+			};
+			name = Debug;
+		};
+		98E6DC4428DA0DF5004F418D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.revive.JSONParsingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONParsing.app/JSONParsing";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +540,15 @@
 			buildConfigurations = (
 				984B9C5228D8CCFF00BFDA00 /* Debug */,
 				984B9C5328D8CCFF00BFDA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E6DC4228DA0DF5004F418D /* Build configuration list for PBXNativeTarget "JSONParsingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E6DC4328DA0DF5004F418D /* Debug */,
+				98E6DC4428DA0DF5004F418D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

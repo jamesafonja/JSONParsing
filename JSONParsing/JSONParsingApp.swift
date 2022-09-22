@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct JSONParsingApp: App {
+    @StateObject var apiHandler: APIHandler = APIHandler()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           MainView()
+                .environmentObject(apiHandler)
         }
     }
 }
